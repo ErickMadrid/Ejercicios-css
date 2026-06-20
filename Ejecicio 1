@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio CSS</title>
+  <style>
+    /* Agrupación de selectores */
+    p, h6 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #2c3e50;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h6>Este es un título H6 (se verá en negrita por defecto)</h6>
+  <p>Este es un párrafo P (se verá con peso de fuente normal por defecto)</p>
+
+</body>
+</html>
