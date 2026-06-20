@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3 - Estilos de Contexto</title>
+    <style>
+        /* Selectores de contexto para el elemento em según su contenedor */
+        h1 em { color: #dddddd; }
+        h2 em { color: #cccccc; }
+        h3 em { color: #bbbbbb; }
+        h4 em { color: #aaaaaa; }
+        h5 em { color: #999999; }
+        h6 em { color: #888888; }
+
+        /* Estilo extra opcional para que el fondo oscuro permita ver los grises claros */
+        body {
+            background-color: #222222;
+            font-family: sans-serif;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bloques de títulos con el elemento em adentro para probar la escala de grises -->
+    <h1>Título H1 con texto <em>enfatizado (Gris muy claro)</em></h1>
+    <h2>Título H2 con texto <em>enfatizado (Gris claro)</em></h2>
+    <h3>Título H3 con texto <em>enfatizado</em></h3>
+    <h4>Título H4 con texto <em>enfatizado</em></h4>
+    <h5>Título H5 con texto <em>enfatizado (Gris oscuro)</em></h5>
+    <h6>Título H6 con texto <em>enfatizado (Gris muy oscuro)</em></h6>
+
+</body>
+</html>
